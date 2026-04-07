@@ -32,7 +32,33 @@ PROCEDURE:
 6.Verify the generated results
 
 PROGRAM:
+```
+clc;
+clear;
+
+// Given data
+X = [12 13 14 15 16];
+
+// Number of elements
+N = length(X);
+
+// Calculate Mean
+mean_value = sum(X) / N;
+
+// Calculate Variance
+variance_value = sum((X - mean_value).^2) / N;
+
+// Display Results
+disp("Mean = ");
+disp(mean_value);
+
+disp("Variance = ");
+disp(variance_value);
+```
 
 OUTPUT GRAPH:
 
-RESULT:
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/2fabf8c6-9648-4ca5-bdd7-872955e0878a" />
+
+
+RESULT: Thus SIMULATION-OF-MEAN-AND-VARIANCE-USING-SCILAB is experimentally done and the output is verified
